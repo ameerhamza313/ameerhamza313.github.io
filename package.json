@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://ameerhamza313.github.io/",
+  "proxy": "https://backend-6ezq.onrender.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
