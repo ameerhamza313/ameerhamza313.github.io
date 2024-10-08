@@ -30,7 +30,7 @@ export default function ContactFormModal({
   const handleSubmit = async (values: ContactFormValues) => {
     setIsSendingMail(true);
     try {
-      const response = await fetch("/api/sendmail", {
+      const response = await fetch("https://backend-6ezq.onrender.com/api/sendmail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
@@ -56,7 +56,7 @@ export default function ContactFormModal({
       setToastState({
         type: "failure",
         value: true,
-        message: "Oop! Unable to send email",
+        message: "Oops! Unable to send email",
       });
     }
     setIsSendingMail(false);
