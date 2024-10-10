@@ -6,6 +6,6 @@ export const routes: NavbarRoutes = [
   { title: "Projects", href: "/projects" },
   {
     title: "Resume",
-    href: "https://drive.google.com/file/d/1mLxfM-mjiiCi177y3-MWPSaNRRVzxO6I/view",
+    href: "https://drive.google.com/file/d/1brYH3rlyIozrRieHsfY_4kHrt3QR0Zd7/view",
   },
 ];
